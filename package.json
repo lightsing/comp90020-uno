@@ -8,7 +8,7 @@
     "url": "git+https://github.com/nedp/comp90020-uno.git"
   },
   "scripts": {
-    "build": "./node_modules/babel-cli/bin/babel.js --presets react -w view.jsx --out-file view.js"
+    "build": "node ./node_modules/babel-cli/bin/babel.js --presets react -w view.jsx --out-file view.js"
   },
   "homepage": "https://github.com/nedp/comp90020-uno#readme",
   "dependencies": {
